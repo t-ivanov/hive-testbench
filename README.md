@@ -53,9 +53,10 @@ All of these steps should be carried out on your Hadoop cluster.
 
   Build 100 TB of TPC-DS data: ```./tpcds-setup 100000```
 
-  Build 30 TB of text formatted TPC-DS data: ```FORMAT=textfile ./tpcds-setup 30000```
+  Build 30 TB of text formatted TPC-DS data: ```./tpcds-setup 30000```
 
-  Build 30 TB of RCFile formatted TPC-DS data: ```FORMAT=rcfile ./tpcds-setup 30000```
+  Build 30 TB of RCFile formatted TPC-DS data: ```./tpcds-setup 30000```
+  "FORMAT=textfile" and "FORMAT=rcfile" are not supported
 
 - Step 6: Run queries.
 
